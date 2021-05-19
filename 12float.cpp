@@ -9,9 +9,12 @@ int main(){
     // printf("Long Double sixe is: %ld\n",sizeof(long double));
 
     float my_precise_value=20.2;
-    printf("My precise value is : %.20f\n",my_precise_value);
+    printf("My precise value is : %.30f\n",my_precise_value);
+    // cout doesn't provides complete precision while printing
+    // cout<<my_precise_value;
 
     float p=20.2+20.2;
+    // cout<<p<<endl;
     if(p==40.400002){
         printf("SAmme");
     }
